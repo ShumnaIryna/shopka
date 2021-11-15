@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./fonts/fontawesome/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/vendors/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Shopka</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+        </header>
+
+        <section class="base">
+        </section>
+
+        <footer class="footer">
+        </footer>
+
+    </div>
+
+
+    <script src="./js/vendors/swiper-bundle.min.js"></script>
+    <script>
+        const swiper1 = new Swiper('#swiper1', {
+            loop: false,
+            navigation: {
+                nextEl: '#swipe-right1',
+                prevEl: '#swipe-left1',
+            }
+        });
+        const swiper2 = new Swiper('#swiper2', {
+            loop: false,
+            navigation: {
+                nextEl: '#swipe-right2',
+                prevEl: '#swipe-left2',
+            }
+        });
+
+
+        setActive = function () {
+            const tabs = document.querySelectorAll('.coffee-tabs__tab');
+            const tab_sections = document.querySelectorAll('.choosecoffee__box--gift');
+
+            tabs.forEach((tab) => {
+                tab.addEventListener('click', (t) => {
+                    let index = [...tab.parentElement.children].indexOf(tab);
+
+                    tabs.forEach((t) => {
+                        t.classList.remove('coffee-tabs__tab--active');
+                    });
+
+                    tab_sections.forEach((s) => {
+                        s.classList.remove('choosecoffee__box--active');
+                    });
+                    tab.classList.add('coffee-tabs__tab--active');
+                    tab_sections[index].classList.add('choosecoffee__box--active');
+                });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', setActive);
+    </script>
+
+</body>
+
+</html>
