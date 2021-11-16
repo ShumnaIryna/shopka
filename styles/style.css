@@ -60,6 +60,14 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font: 400 14px/1.4 "Inter", Arial, Helvetica, sans-serif;
+  color: #787885;
+  background-color: #f8f8f8;
+}
+
 h1,
 h2,
 h3,
@@ -83,5 +91,15 @@ ul {
 a {
   text-decoration: none;
   transition: all 0.3s;
+}
+
+.container {
+  max-width: 1960px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 16px;
 }
 /*# sourceMappingURL=style.css.map */

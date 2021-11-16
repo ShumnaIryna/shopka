@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-// body {
-//   margin: 0;
-//   font-family: $inter-font;
-//   font: $main-font;
-//   color: $main-color;
-//   background-color: $background-white3;
-// }
+body {
+  margin: 0;
+  font-family: $inter-font;
+  font: $main-font;
+  color: $main-color;
+  background-color: $base-background;
+}
 
 h1,
 h2,
@@ -37,16 +37,11 @@ a {
   transition: all 0.3s;
 }
 
-// .container {
-//   max-width: 1440px;
-//   padding: 0 20px;
-//   margin: 0 auto;
-// }
-
-// .subtitle {
-//   font: $h3-font;
-//   color: $title-color;
-// }
+.container {
+  max-width: 1960px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
 // .d-flex {
 //   display: flex;
