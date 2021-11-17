@@ -37,15 +37,21 @@ a {
   transition: all 0.3s;
 }
 
+a:hover,
+a:focus {
+  color: $blue-color;
+}
+
 .container {
   max-width: 1960px;
   padding: 0 20px;
   margin: 0 auto;
+  border-radius: 20px;
 }
 
-// .d-flex {
-//   display: flex;
-// }
+.d-flex {
+  display: flex;
+}
 
 // .swiper-wrapper {
 //   margin: -20px;

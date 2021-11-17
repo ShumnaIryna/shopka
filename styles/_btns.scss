@@ -1,3 +1,22 @@
+.identification__btn {
+  padding: 8px 10px;
+  font: $size6-font;
+  color: $blue-color;
+  border: 1px solid $accent-blue-color;
+  border-radius: 4px;
+
+  &--foto {
+    max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+  }
+}
+
+.identification__btn:hover {
+  box-shadow: 0px 2px 4px $shadow-blue1, 0px 4px 8px $shadow-blue2;
+  border: none;
+}
 // .btn-icon {
 //   background-color: transparent;
 //   border: none;
