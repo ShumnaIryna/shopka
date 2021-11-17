@@ -44,6 +44,20 @@
   &__general:not(:last-child) {
     padding-right: 20px;
   }
+
+  &__card {
+    align-items: center;
+    justify-content: center;
+    font: $size11-font;
+    max-width: 20px;
+    max-height: 20px;
+    width: 20px;
+    right: 19px;
+    top: -9px;
+    border-radius: 50%;
+    color: $white-color;
+    background-color: $red-background;
+  }
 }
 
 // .identification:not(:last-child) {

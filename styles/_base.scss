@@ -53,6 +53,23 @@ a:focus {
   display: flex;
 }
 
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+input {
+  border: none;
+  border-radius: 99px;
+  background-color: $gray-background;
+  font: $size5-font;
+  color: $list-color;
+  max-width: 668px;
+  min-width: 440px;
+}
 // .swiper-wrapper {
 //   margin: -20px;
 // }

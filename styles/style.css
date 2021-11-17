@@ -109,6 +109,24 @@ a:focus {
   display: flex;
 }
 
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+input {
+  border: none;
+  border-radius: 99px;
+  background-color: #ededf0;
+  font: 400 20px/1.6 "Inter", Arial, Helvetica, sans-serif;
+  color: #19191d;
+  max-width: 668px;
+  min-width: 440px;
+}
+
 .identification__btn {
   padding: 8px 10px;
   font: 700 20px/1.5 "Quicksand", Arial, Helvetica, sans-serif;
@@ -169,5 +187,19 @@ a:focus {
 
 .identification__general:not(:last-child) {
   padding-right: 20px;
+}
+
+.identification__card {
+  align-items: center;
+  justify-content: center;
+  font: 700 14px/1.25 "Quicksand", Arial, Helvetica, sans-serif;
+  max-width: 20px;
+  max-height: 20px;
+  width: 20px;
+  right: 19px;
+  top: -9px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #f44336;
 }
 /*# sourceMappingURL=style.css.map */
