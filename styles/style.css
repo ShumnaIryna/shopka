@@ -117,16 +117,6 @@ a:focus {
   position: absolute;
 }
 
-input {
-  border: none;
-  border-radius: 99px;
-  background-color: #ededf0;
-  font: 400 20px/1.6 "Inter", Arial, Helvetica, sans-serif;
-  color: #19191d;
-  max-width: 668px;
-  min-width: 440px;
-}
-
 .identification__btn {
   padding: 8px 10px;
   font: 700 20px/1.5 "Quicksand", Arial, Helvetica, sans-serif;
@@ -176,7 +166,23 @@ input {
 }
 
 .header__search {
-  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.header__search--input {
+  width: 668px;
+  height: 48px;
+  padding: 8px 48px;
+  border: none;
+  border-radius: 99px;
+  background-color: #ededf0;
+  font: 400 20px/1.6 "Inter", Arial, Helvetica, sans-serif;
+  color: #2979ff;
+  cursor: pointer;
+}
+
+.header__search--input::placeholder {
+  color: #19191d;
 }
 
 .identification {
