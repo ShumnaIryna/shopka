@@ -38,10 +38,10 @@
       background-color: $gray-background;
       font: $size5-font;
       color: $light-blue-color;
-      cursor: pointer;
 
       &::placeholder {
         color: $list-color;
+        border: none;
       }
     }
   }
