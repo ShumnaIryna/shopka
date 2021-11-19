@@ -1,0 +1,26 @@
+.mainnav {
+  padding-top: 8px;
+
+  &__list {
+    grid-auto-flow: column;
+    gap: 8px;
+    align-items: end;
+  }
+
+  &__item {
+    padding-bottom: 4px;
+  }
+
+  &__link {
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    &-title {
+      padding-top: 5px;
+
+      &--active {
+        color: $light-blue-color;
+      }
+    }
+  }
+}

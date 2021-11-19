@@ -21,7 +21,7 @@
     font: $size5-font;
     color: $gray-color;
 
-    &--electro {
+    &-electro {
       color: $blue-color;
     }
   }
@@ -29,7 +29,7 @@
   &__search {
     margin-right: 30px;
 
-    &--input {
+    &-input {
       width: 668px;
       height: 48px;
       padding: 8px 48px;

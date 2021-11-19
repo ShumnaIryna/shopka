@@ -1,0 +1,6 @@
+.mainnav__list {
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+/*# sourceMappingURL=mainnav.css.map */
