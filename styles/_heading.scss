@@ -44,6 +44,22 @@
         border: none;
       }
     }
+
+    &--icon {
+      min-height: 17.5px;
+      width: 17.5px;
+      height: 17.5px;
+      top: 15px;
+      left: 15px;
+    }
+
+    &--close {
+      min-height: 14px;
+      width: 14px;
+      height: 14px;
+      top: 17px;
+      right: 17px;
+    }
   }
 }
 
