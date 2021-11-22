@@ -32,6 +32,10 @@ ul {
   list-style: none;
 }
 
+button {
+  border-style: none;
+}
+
 a {
   text-decoration: none;
   transition: all 0.3s;
@@ -68,6 +72,12 @@ a:focus {
 
 .d-grid {
   display: grid;
+}
+
+.pagewrap {
+  grid-auto-flow: column;
+  gap: 75px;
+  padding-top: 40px;
 }
 
 // input {

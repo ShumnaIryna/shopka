@@ -1,0 +1,61 @@
+.pagewrapAside {
+  max-width: 304px;
+
+  &__button {
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    background-color: $white-background;
+    border: 1px solid $accent-blue-color;
+    border-radius: 8px;
+
+    &--img {
+      padding-right: 45px;
+    }
+
+    &--title {
+      padding: 10px 20px;
+      font: $size2-font;
+      color: $blue-color;
+    }
+  }
+}
+
+.navcategories {
+  &__maintitle {
+    font: $size8-font;
+    color: $list-color;
+  }
+
+  &__subtitle {
+    color: $main-color;
+  }
+
+  &__undertitle {
+    font: $size7-font;
+    color: $list-color;
+  }
+
+  &__lesstitle {
+    font: $size8-font;
+    color: $list-color;
+  }
+}
+
+.group {
+  &__button {
+    padding: 12px;
+    background-color: $light-blue-background;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  &__button:hover {
+    box-shadow: 0px 2px 4px $shadow-blue1, 0px 4px 8px $shadow-blue2;
+  }
+
+  &__btn {
+    font: $size10-font;
+    color: $blue-color;
+    border: none;
+  }
+}

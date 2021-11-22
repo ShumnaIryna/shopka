@@ -88,6 +88,10 @@ ul {
   list-style: none;
 }
 
+button {
+  border-style: none;
+}
+
 a {
   text-decoration: none;
   transition: all 0.3s;
@@ -124,6 +128,12 @@ a:focus {
 
 .d-grid {
   display: grid;
+}
+
+.pagewrap {
+  grid-auto-flow: column;
+  gap: 75px;
+  padding-top: 40px;
 }
 
 .identification__btn {
@@ -259,5 +269,63 @@ a:focus {
 
 .mainnav__link-title--active {
   color: #2979ff;
+}
+
+.pagewrapAside {
+  max-width: 304px;
+}
+
+.pagewrapAside__button {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: 1px solid #9dc2ff;
+  border-radius: 8px;
+}
+
+.pagewrapAside__button--img {
+  padding-right: 45px;
+}
+
+.pagewrapAside__button--title {
+  padding: 10px 20px;
+  font: 700 24px/1.5 "Quicksand", Arial, Helvetica, sans-serif;
+  color: #2264d1;
+}
+
+.navcategories__maintitle {
+  font: 400 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
+  color: #19191d;
+}
+
+.navcategories__subtitle {
+  color: #787885;
+}
+
+.navcategories__undertitle {
+  font: 500 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
+  color: #19191d;
+}
+
+.navcategories__lesstitle {
+  font: 400 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
+  color: #19191d;
+}
+
+.group__button {
+  padding: 12px;
+  background-color: #ebf2ff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.group__button:hover {
+  box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2), 0px 4px 8px rgba(41, 121, 255, 0.2);
+}
+
+.group__btn {
+  font: 700 14px/1.14 "Roboto", Arial, Helvetica, sans-serif;
+  color: #2264d1;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
