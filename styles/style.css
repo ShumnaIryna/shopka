@@ -300,6 +300,14 @@ a:focus {
   color: #19191d;
 }
 
+.actionbtn--pdsub {
+  padding: 5px 0px 5px 60px;
+}
+
+.actionbtn--pdunder {
+  padding: 5px 0px 5px 72px;
+}
+
 .actionbtn__title {
   font: 400 14px/1.4 "Inter", Arial, Helvetica, sans-serif;
   color: #787885;
@@ -310,12 +318,14 @@ a:focus {
   top: 16px;
 }
 
-.actionbtn--pdsub {
-  padding: 5px 0px 5px 60px;
+.actionbtn__img--sub {
+  left: 24px;
+  top: 6px;
 }
 
-.actionbtn--pdunder {
-  padding: 5px 0px 5px 72px;
+.actionbtn__img--under {
+  left: 32px;
+  top: 6px;
 }
 
 button.pagewrapAside__button,
@@ -338,10 +348,15 @@ button.actionbtn {
 
 .showbtn {
   padding: 12px;
+  margin-left: 84px;
   background-color: #ebf2ff;
   border-radius: 8px;
   cursor: pointer;
   color: #787885;
+}
+
+.showbtn--expand {
+  margin-left: 60px;
 }
 
 .showbtn__title {

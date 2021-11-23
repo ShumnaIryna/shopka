@@ -25,6 +25,14 @@
   font: $size7-font;
   color: $list-color;
 
+  &--pdsub {
+    padding: 5px 0px 5px 60px;
+  }
+
+  &--pdunder {
+    padding: 5px 0px 5px 72px;
+  }
+
   &__title {
     font: $size14-font;
     color: $main-color;
@@ -33,15 +41,17 @@
   &__img {
     left: 16px;
     top: 16px;
+
+    &--sub {
+      left: 24px;
+      top: 6px;
+    }
+
+    &--under {
+      left: 32px;
+      top: 6px;
+    }
   }
-}
-
-.actionbtn--pdsub {
-  padding: 5px 0px 5px 60px;
-}
-
-.actionbtn--pdunder {
-  padding: 5px 0px 5px 72px;
 }
 
 button.pagewrapAside__button,
@@ -49,10 +59,6 @@ button.actionbtn {
   background-color: transparent;
   text-align: inherit;
 }
-
-// button.actionbtn {
-//   background-image: url(/img/chevron-right.svg);
-// }
 
 .categories {
   font: $size8-font;
@@ -66,32 +72,17 @@ button.actionbtn {
   }
 }
 
-// .categories--pdli {
-//   padding: 5px 0px 5px 64px;
-// }
-
-// .actionbtn {
-//   &__title {
-//     font: $size14-font;
-//     color: $main-color;
-//   }
-// }
-
-// .categories {
-//   font: $size7-font;
-//   color: $list-color;
-
-//   &--unit {
-//     font: $size8-font;
-//   }
-// }
-
 .showbtn {
   padding: 12px;
+  margin-left: 84px;
   background-color: $light-blue-background;
   border-radius: 8px;
   cursor: pointer;
   color: $main-color;
+
+  &--expand {
+    margin-left: 60px;
+  }
 
   &__title {
     font: $size10-font;
