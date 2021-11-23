@@ -90,6 +90,7 @@ ul {
 
 button {
   border-style: none;
+  cursor: pointer;
 }
 
 a {
@@ -293,39 +294,68 @@ a:focus {
   color: #2264d1;
 }
 
-.navcategories__maintitle {
-  font: 400 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
-  color: #19191d;
-}
-
-.navcategories__subtitle {
-  color: #787885;
-}
-
-.navcategories__undertitle {
+.actionbtn {
+  padding: 5px 0px 5px 48px;
   font: 500 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
   color: #19191d;
 }
 
-.navcategories__lesstitle {
+.actionbtn__title {
+  font: 400 14px/1.4 "Inter", Arial, Helvetica, sans-serif;
+  color: #787885;
+}
+
+.actionbtn__img {
+  left: 16px;
+  top: 16px;
+}
+
+.actionbtn--pdsub {
+  padding: 5px 0px 5px 60px;
+}
+
+.actionbtn--pdunder {
+  padding: 5px 0px 5px 72px;
+}
+
+button.pagewrapAside__button,
+button.actionbtn {
+  background-color: transparent;
+  text-align: inherit;
+}
+
+.categories {
   font: 400 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
+}
+
+.categories__link {
   color: #19191d;
 }
 
-.group__button {
+.categories__title {
+  padding: 5px 0 5px 84px;
+}
+
+.showbtn {
   padding: 12px;
   background-color: #ebf2ff;
   border-radius: 8px;
   cursor: pointer;
+  color: #787885;
 }
 
-.group__button:hover {
-  box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2), 0px 4px 8px rgba(41, 121, 255, 0.2);
-}
-
-.group__btn {
+.showbtn__title {
   font: 700 14px/1.14 "Roboto", Arial, Helvetica, sans-serif;
   color: #2264d1;
   border: none;
+}
+
+.showbtn:hover {
+  box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2), 0px 4px 8px rgba(41, 121, 255, 0.2);
+}
+
+span.fa-chevron-down {
+  margin-left: 10px;
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */

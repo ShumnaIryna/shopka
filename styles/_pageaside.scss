@@ -20,42 +20,91 @@
   }
 }
 
-.navcategories {
-  &__maintitle {
-    font: $size8-font;
-    color: $list-color;
-  }
+.actionbtn {
+  padding: 5px 0px 5px 48px;
+  font: $size7-font;
+  color: $list-color;
 
-  &__subtitle {
+  &__title {
+    font: $size14-font;
     color: $main-color;
   }
 
-  &__undertitle {
-    font: $size7-font;
-    color: $list-color;
-  }
-
-  &__lesstitle {
-    font: $size8-font;
-    color: $list-color;
+  &__img {
+    left: 16px;
+    top: 16px;
   }
 }
 
-.group {
-  &__button {
-    padding: 12px;
-    background-color: $light-blue-background;
-    border-radius: 8px;
-    cursor: pointer;
+.actionbtn--pdsub {
+  padding: 5px 0px 5px 60px;
+}
+
+.actionbtn--pdunder {
+  padding: 5px 0px 5px 72px;
+}
+
+button.pagewrapAside__button,
+button.actionbtn {
+  background-color: transparent;
+  text-align: inherit;
+}
+
+// button.actionbtn {
+//   background-image: url(/img/chevron-right.svg);
+// }
+
+.categories {
+  font: $size8-font;
+
+  &__link {
+    color: $list-color;
   }
 
-  &__button:hover {
-    box-shadow: 0px 2px 4px $shadow-blue1, 0px 4px 8px $shadow-blue2;
+  &__title {
+    padding: 5px 0 5px 84px;
   }
+}
 
-  &__btn {
+// .categories--pdli {
+//   padding: 5px 0px 5px 64px;
+// }
+
+// .actionbtn {
+//   &__title {
+//     font: $size14-font;
+//     color: $main-color;
+//   }
+// }
+
+// .categories {
+//   font: $size7-font;
+//   color: $list-color;
+
+//   &--unit {
+//     font: $size8-font;
+//   }
+// }
+
+.showbtn {
+  padding: 12px;
+  background-color: $light-blue-background;
+  border-radius: 8px;
+  cursor: pointer;
+  color: $main-color;
+
+  &__title {
     font: $size10-font;
     color: $blue-color;
     border: none;
   }
+}
+
+.showbtn:hover {
+  box-shadow: 0px 2px 4px $shadow-blue1, 0px 4px 8px $shadow-blue2;
+}
+
+span.fa-chevron-down {
+  margin-left: 10px;
+  font-size: 12px;
 }
