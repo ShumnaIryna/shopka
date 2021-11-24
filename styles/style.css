@@ -65,7 +65,7 @@ body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font: 400 14px/1.4 "Inter", Arial, Helvetica, sans-serif;
   color: #787885;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 h1,
@@ -359,18 +359,76 @@ button.actionbtn {
   margin-left: 60px;
 }
 
+.showbtn--filters {
+  padding: 6px 22px 10px 8px;
+  margin: 32px 0 24px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24), 0px 2px 4px rgba(90, 91, 106, 0.24);
+}
+
+.showbtn--box {
+  padding: 0 0 10px;
+  margin: 0;
+  background-color: transparent;
+  color: #4a4b57;
+}
+
 .showbtn__title {
   font: 700 14px/1.14 "Roboto", Arial, Helvetica, sans-serif;
   color: #2264d1;
   border: none;
 }
 
+.showbtn__title--filters {
+  font: 400 16px/1.5 "Roboto", Arial, Helvetica, sans-serif;
+  color: #19191d;
+}
+
+.showbtn__title--box {
+  font: 500 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
+  color: #19191d;
+}
+
 .showbtn:hover {
   box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2), 0px 4px 8px rgba(41, 121, 255, 0.2);
 }
 
-span.fa-chevron-down {
+span.fa-chevron-down,
+span.fa-chevron-up {
   margin-left: 10px;
   font-size: 12px;
+}
+
+span.fa-chevron-down--filters,
+span.fa-chevron-up--filters {
+  margin-left: 144px;
+  color: #2264d1;
+}
+
+span.fa-chevron-down--box,
+span.fa-chevron-up--box {
+  margin-left: 126px;
+  color: #4a4b57;
+}
+
+.box {
+  margin-bottom: 24px;
+  padding: 8px 12px 16px;
+  background-color: #f7f7fa;
+  border-radius: 4px;
+}
+
+.box input[type="checkbox"] {
+  margin: 12px 19px 12px 7px;
+  background-color: #dadada;
+}
+
+.box label {
+  font: 400 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
+  color: #19191d;
+}
+
+.showbtn:hover {
+  box-shadow: none;
 }
 /*# sourceMappingURL=style.css.map */

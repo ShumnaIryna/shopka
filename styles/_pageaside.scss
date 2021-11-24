@@ -84,10 +84,35 @@ button.actionbtn {
     margin-left: 60px;
   }
 
+  &--filters {
+    padding: 6px 22px 10px 8px;
+    margin: 32px 0 24px;
+    background-color: $white-background;
+    box-shadow: 0px 1px 2px $shadow-blue3, 0px 2px 4px $shadow-blue4;
+  }
+
+  &--box {
+    padding: 0 0 10px;
+    margin: 0;
+
+    background-color: transparent;
+    color: $filter-color;
+  }
+
   &__title {
     font: $size10-font;
     color: $blue-color;
     border: none;
+
+    &--filters {
+      font: $size9-font;
+      color: $list-color;
+    }
+
+    &--box {
+      font: $size7-font;
+      color: $list-color;
+    }
   }
 }
 
@@ -95,7 +120,39 @@ button.actionbtn {
   box-shadow: 0px 2px 4px $shadow-blue1, 0px 4px 8px $shadow-blue2;
 }
 
-span.fa-chevron-down {
+span.fa-chevron-down,
+span.fa-chevron-up {
   margin-left: 10px;
   font-size: 12px;
+
+  &--filters {
+    margin-left: 144px;
+    color: $blue-color;
+  }
+
+  &--box {
+    margin-left: 126px;
+    color: $filter-color;
+  }
+}
+
+.box {
+  margin-bottom: 24px;
+  padding: 8px 12px 16px;
+  background-color: $light-gray-background;
+  border-radius: 4px;
+
+  input[type="checkbox"] {
+    margin: 12px 19px 12px 7px;
+    background-color: $checkbox-background;
+  }
+
+  label {
+    font: $size8-font;
+    color: $list-color;
+  }
+}
+
+.showbtn:hover {
+  box-shadow: none;
 }
