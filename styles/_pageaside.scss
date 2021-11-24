@@ -134,6 +134,10 @@ span.fa-chevron-up {
     margin-left: 126px;
     color: $filter-color;
   }
+
+  &--marg {
+    margin-left: 85px;
+  }
 }
 
 .box {
@@ -142,10 +146,22 @@ span.fa-chevron-up {
   background-color: $light-gray-background;
   border-radius: 4px;
 
-  input[type="checkbox"] {
+  input {
     margin: 12px 19px 12px 7px;
-    background-color: $checkbox-background;
   }
+
+  input[type="checkbox"]::after {
+    background-color: $checkbox-background;
+    content: " ";
+    display: inline-block;
+    visibility: visible;
+  }
+
+  // input[type="checkbox"]:checked,
+  // input[type="checkbox"]:hover,
+  // input[type="checkbox"]:disabled {
+  //   background: $checkbox-background;
+  // }
 
   label {
     font: $size8-font;

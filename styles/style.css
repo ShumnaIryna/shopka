@@ -411,6 +411,11 @@ span.fa-chevron-up--box {
   color: #4a4b57;
 }
 
+span.fa-chevron-down--marg,
+span.fa-chevron-up--marg {
+  margin-left: 85px;
+}
+
 .box {
   margin-bottom: 24px;
   padding: 8px 12px 16px;
@@ -418,9 +423,15 @@ span.fa-chevron-up--box {
   border-radius: 4px;
 }
 
-.box input[type="checkbox"] {
+.box input {
   margin: 12px 19px 12px 7px;
+}
+
+.box input[type="checkbox"]::after {
   background-color: #dadada;
+  content: " ";
+  display: inline-block;
+  visibility: visible;
 }
 
 .box label {
