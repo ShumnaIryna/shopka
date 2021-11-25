@@ -99,6 +99,32 @@ button.actionbtn {
     color: $filter-color;
   }
 
+  &--sort {
+    margin: 0 16px 0 0;
+    padding: 7px 12px;
+    background-color: $white-background;
+    border-radius: 4px;
+    border: 1px solid $accent-gray-color;
+
+    &-active {
+      border: 1px solid $gray-color;
+    }
+  }
+
+  &--sort:hover {
+    border: 1px solid $gray-color;
+  }
+
+  &--big {
+    margin: 0;
+    border-radius: 4px;
+
+    &-action {
+      box-shadow: 0px 1px 2px $shadow-blue1, 0px 2px 4px $shadow-blue2;
+      background-color: $white-background;
+    }
+  }
+
   &__title {
     font: $size10-font;
     color: $blue-color;
@@ -113,6 +139,32 @@ button.actionbtn {
       font: $size7-font;
       color: $list-color;
     }
+
+    &--sort {
+      font: $main-font;
+      color: $main-color;
+
+      &-active {
+        color: $list-color;
+      }
+    }
+
+    &--big {
+      color: $gray-color;
+      font: $main-font;
+
+      &-action {
+        color: $blue-color;
+      }
+    }
+  }
+
+  &__over {
+    font: $size14-font;
+    color: $main-color;
+    top: -10px;
+    left: 10px;
+    background-color: $white-background;
   }
 }
 
@@ -121,7 +173,8 @@ button.actionbtn {
 }
 
 span.fa-chevron-down,
-span.fa-chevron-up {
+span.fa-chevron-up,
+span.fa-sort-down {
   margin-left: 10px;
   font-size: 12px;
 
@@ -138,6 +191,11 @@ span.fa-chevron-up {
   &--marg {
     margin-left: 85px;
   }
+
+  &--sort {
+    margin-right: 16px;
+    margin-top: 2px;
+  }
 }
 
 .box {
@@ -146,26 +204,16 @@ span.fa-chevron-up {
   background-color: $light-gray-background;
   border-radius: 4px;
 
-  input {
-    margin: 12px 19px 12px 7px;
-  }
+  &__checkbox {
+    &--input {
+      margin: 12px 19px 12px 7px;
+    }
 
-  input[type="checkbox"]::after {
-    background-color: $checkbox-background;
-    content: " ";
-    display: inline-block;
-    visibility: visible;
-  }
-
-  // input[type="checkbox"]:checked,
-  // input[type="checkbox"]:hover,
-  // input[type="checkbox"]:disabled {
-  //   background: $checkbox-background;
-  // }
-
-  label {
-    font: $size8-font;
-    color: $list-color;
+    &--label {
+      font: $size8-font;
+      color: $list-color;
+      cursor: pointer;
+    }
   }
 }
 

@@ -239,29 +239,39 @@
                             <span class="showbtn__title showbtn__title--box">Expanded Filters</span>
                             <span class="fas fa-chevron-up fa-chevron-up--box"></span>
                         </button>
-                        <div>
-                            <input type="checkbox" name="Recommended" checked>
-                            <label for="Recommended">Recommended</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="filter" value="Recommended"
+                                    checked>
+                                Recommended</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="Recently Added">
-                            <label for="Recently Added">Recently Added</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="filter"
+                                    value="Recently Added">
+                                Recently Added</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="Expiring Soon">
-                            <label for="Expiring Soon">Expiring Soon</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="filter" value="Expiring Soon">
+                                Expiring Soon</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="Most Rated">
-                            <label for="Most Rated">Most Rated</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="filter" value="Most Rated">
+                                Most Rated</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="Price:Low">
-                            <label for="Price:Low">Price: Low → High</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="filter"
+                                    value="Price: Low → High">
+                                Price: Low → High</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="Price:High">
-                            <label for="Price:High">Price: High → Low</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="filter"
+                                    value="Price: High → Low">
+                                Price: High → Low</label>
                         </div>
                     </div>
                     <div class="box">
@@ -269,47 +279,99 @@
                             <span class="showbtn__title showbtn__title--box">Year of manufacturing</span>
                             <span class="fas fa-chevron-up fa-chevron-up--box fa-chevron-up--marg"></span>
                         </button>
-                        <div>
-                            <input type="checkbox" name="1954" checked>
-                            <label for="1954">1954</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1954" checked>
+                                1954</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="1955">
-                            <label for="1955">1955</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1955">
+                                1955</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="1956">
-                            <label for="1956">1956</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1956">
+                                1956</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name=1957">
-                            <label for="1957">1957</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1957">
+                                1957</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="1958">
-                            <label for="1958">1958</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1958">
+                                1958</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="1959">
-                            <label for="1959">1959</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1959">
+                                1959</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="1960">
-                            <label for="1960">1960</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1960">
+                                1960</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="1961">
-                            <label for="1961">1961</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1961">
+                                1961</label>
                         </div>
-                        <div>
-                            <input type="checkbox" name="1962-2020">
-                            <label for="1962-2020">1962-2020</label>
+                        <div class="box__checkbox">
+                            <label class="box__checkbox--label">
+                                <input class="box__checkbox--input" type="checkbox" name="year" value="1962-2020">
+                                1962-2020</label>
                         </div>
                     </div>
                 </aside>
             </div>
 
-            <div class="pagewrapBody">2</div>
+            <div class="pagewrapBody">
+                <header class="header d-flex">
+                    <div class="header__left d-flex">
+                        <button class="showbtn showbtn--sort showbtn--sort-active pos-rel" type="button">
+                            <span class="showbtn__title showbtn__title--sort showbtn__title--sort-active">Useless
+                                first</span>
+                            <span class="fas fa-sort-down fa-sort-down--sort"></span>
+                            <span class="showbtn__over pos-abs">SORT BY</span>
+                        </button>
+                        <button class="showbtn showbtn--sort" type="button">
+                            <span class="showbtn__title showbtn__title--sort">Condition</span>
+                            <span class="fas fa-sort-down fa-sort-down--sort"></span>
+                        </button>
+                        <button class="showbtn showbtn--sort" type="button">
+                            <span class="showbtn__title showbtn__title--sort">Delivery options</span>
+                            <span class="fas fa-sort-down fa-sort-down--sort"></span>
+                        </button>
+                    </div>
+                    <div class="header__right d-flex">
+                        <button class="showbtn showbtn--big" type="button">
+                            <span class="showbtn__title showbtn__title--big">Show all</span>
+                        </button>
+                        <button class="showbtn showbtn--big showbtn--big-action" type="button">
+                            <span class="showbtn__title showbtn__title--big showbtn__title--big-action">Auction</span>
+                        </button>
+                        <button class="showbtn showbtn--big" type="button">
+                            <span class="showbtn__title showbtn__title--big">Buy now</span>
+                        </button>
+
+                        <button class="showbtn showbtn--tiles" type="button">
+                            <img src="./img/tiles1.svg" alt="tiles" class="">
+
+                        </button>
+                        <button class="showbtn showbtn--tiles" type="button">
+                            <img src="./img/tiles2.svg" alt="tiles" class="">
+
+                        </button>
+                    </div>
+                </header>
+
+                <nav></nav>
+
+                <main></main>
+            </div>
 
         </section>
 
