@@ -514,7 +514,6 @@ span.fa-sort-down--sort {
 }
 
 .pagewrapBody {
-  padding: 16px;
   box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24), 0px 2px 4px rgba(90, 91, 106, 0.24);
   border-radius: 8px;
 }
@@ -522,5 +521,47 @@ span.fa-sort-down--sort {
 .pagewrapBody .header {
   align-items: center;
   justify-content: space-between;
+}
+
+.pagewrapBody .tabs {
+  padding: 20px 16px 16px;
+}
+
+.pagewrapBody .tabs .layout {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pagewrapBody .tabs__title {
+  padding-right: 4px;
+  font: 500 14px/1.4 "Inter", Arial, Helvetica, sans-serif;
+  color: #19191d;
+}
+
+.pagewrapBody .tabs__list {
+  align-items: center;
+}
+
+.pagewrapBody .tabs__item {
+  margin-right: 8px;
+  padding: 6px 12px;
+  background-color: #ededf0;
+  border-radius: 99px;
+  border: 1px solid transparent;
+}
+
+.pagewrapBody .tabs__item:hover, .pagewrapBody .tabs__item:active {
+  border: 1px solid #5a5b6a;
+}
+
+.pagewrapBody .tabs__link {
+  font: 400 14px/1.4 "Inter", Arial, Helvetica, sans-serif;
+  color: #4a4b57;
+}
+
+.pagewrapBody .main {
+  padding: 0 16px 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
 }
 /*# sourceMappingURL=style.css.map */
