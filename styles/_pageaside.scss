@@ -113,16 +113,22 @@ button.actionbtn {
 
   &--sort:hover {
     border: 1px solid $gray-color;
+    box-shadow: none;
   }
 
   &--big {
     margin: 0;
     border-radius: 4px;
+    border: 1px solid transparent;
 
     &-action {
       box-shadow: 0px 1px 2px $shadow-blue1, 0px 2px 4px $shadow-blue2;
       background-color: $white-background;
     }
+  }
+
+  &--big:hover {
+    box-shadow: 0px 1px 2px $shadow-blue1, 0px 2px 4px $shadow-blue2;
   }
 
   &__title {
@@ -166,10 +172,21 @@ button.actionbtn {
     left: 10px;
     background-color: $white-background;
   }
-}
 
-.showbtn:hover {
-  box-shadow: 0px 2px 4px $shadow-blue1, 0px 4px 8px $shadow-blue2;
+  &--tiles {
+    padding: 10px 25px;
+    border-radius: 4px;
+
+    &-action {
+      margin-left: 0;
+      background-color: $white-background;
+      box-shadow: 0px 1px 2px $shadow-blue1, 0px 2px 4px $shadow-blue2;
+    }
+  }
+
+  &--tiles:hover {
+    box-shadow: 0px 1px 2px $shadow-blue1, 0px 2px 4px $shadow-blue2;
+  }
 }
 
 span.fa-chevron-down,
@@ -215,8 +232,4 @@ span.fa-sort-down {
       cursor: pointer;
     }
   }
-}
-
-.showbtn:hover {
-  box-shadow: none;
 }
