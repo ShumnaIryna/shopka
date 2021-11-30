@@ -580,6 +580,8 @@ span.fa-sort-down--sort {
 }
 
 .pagewrapBody .main .goods__title {
+  min-width: 227px;
+  min-height: 74px;
   padding-bottom: 8px;
   font: 400 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
   color: #19191d;
@@ -594,6 +596,8 @@ span.fa-sort-down--sort {
 
 .pagewrapBody .main .goods__comment {
   padding-bottom: 9px;
+  min-width: 227px;
+  min-height: 41px;
 }
 
 .pagewrapBody .main .goods__details {
