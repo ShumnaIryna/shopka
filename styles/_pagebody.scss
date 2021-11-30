@@ -116,6 +116,22 @@
       &__btn:hover {
         box-shadow: 0px 1px 2px $shadow-blue1, 0px 2px 4px $shadow-blue2;
       }
+
+      &__sale {
+        padding: 4px 10px;
+        right: 0px;
+        top: 3px;
+        font: $size14-font;
+        color: $green-color;
+        border-radius: 4px;
+        background-color: $light-green-background;
+
+        &--cool {
+          padding: 4px 6px;
+          color: $pink-color;
+          background-color: $light-pink-background;
+        }
+      }
     }
 
     .goods:hover,
