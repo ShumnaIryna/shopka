@@ -48,5 +48,76 @@
     padding: 0 16px 16px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
+
+    .goods {
+      padding: 16px 16px 12px;
+      border: 1px solid $white-color;
+      border-radius: 4px;
+
+      &__picture {
+        padding-bottom: 12px;
+
+        &-img {
+          max-width: 100%;
+        }
+      }
+
+      &__title {
+        padding-bottom: 8px;
+        font: $size8-font;
+        color: $list-color;
+      }
+
+      &__price {
+        padding-bottom: 8px;
+        font: $size3-font;
+        color: $dark-black-color;
+        opacity: 0.87;
+      }
+
+      &__comment {
+        padding-bottom: 9px;
+      }
+
+      &__details {
+        align-items: center;
+      }
+
+      &__rating {
+        padding: 10px 10px 10px 2px;
+
+        &-gold {
+          overflow: hidden;
+        }
+      }
+
+      &__number {
+        font: $size12-font;
+        color: $dark-gray-color;
+        margin-right: 30px;
+      }
+
+      &__btn {
+        padding: 4px 12px;
+        font: $size13-font;
+        align-items: center;
+        border: 1px solid $accent-blue-color;
+        box-shadow: none;
+      }
+
+      &__btn > img {
+        margin-right: 5px;
+      }
+
+      &__btn:hover {
+        box-shadow: 0px 1px 2px $shadow-blue1, 0px 2px 4px $shadow-blue2;
+      }
+    }
+
+    .goods:hover,
+    .goods:active {
+      box-shadow: 0px 2px 4px $shadow-gray1, 0px 4px 8px $shadow-gray2;
+      border-radius: 8px;
+    }
   }
 }
