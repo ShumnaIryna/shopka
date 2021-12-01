@@ -76,9 +76,14 @@ a:focus {
 }
 
 .pagewrap {
-  grid-auto-flow: column;
+  // grid-auto-flow: column;
+  grid-template-columns: 304px 1fr;
   gap: 75px;
   padding-top: 40px;
+}
+
+.width-btn-aside {
+  width: 304px;
 }
 
 // input {

@@ -1,5 +1,5 @@
 .footer {
-  margin-left: 316px;
+  margin-left: 328px;
   padding: 40px 0 96px;
 
   .info {
@@ -25,6 +25,10 @@
       &-about {
         color: $gray-color;
       }
+    }
+
+    &__box:hover {
+      box-shadow: 0px 1px 2px $shadow-blue3, 0px 2px 4px $shadow-blue4;
     }
   }
 }
