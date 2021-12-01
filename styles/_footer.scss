@@ -1,4 +1,30 @@
-// .footer {
-//   background-color: $background-gray;
+.footer {
+  margin-left: 316px;
+  padding: 40px 0 96px;
 
-// }
+  .info {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 32px;
+    align-items: center;
+
+    &__box {
+      padding: 24px 16px;
+      background-color: $gray-background;
+      border-radius: 8px;
+      text-align: center;
+
+      &-img {
+        padding-bottom: 3px;
+      }
+
+      &-titile {
+        font: $size6-font;
+        color: $dark-black-color;
+      }
+
+      &-about {
+        color: $gray-color;
+      }
+    }
+  }
+}
