@@ -132,13 +132,24 @@ a:focus {
 }
 
 .pagewrap {
-  grid-template-columns: 304px 1fr;
+  grid-template-columns: 305px 1fr;
   gap: 75px;
   padding-top: 40px;
 }
 
 .width-btn-aside {
   width: 304px;
+}
+
+img,
+video,
+audio,
+canvas,
+input,
+select,
+button,
+progress {
+  max-width: 100%;
 }
 
 .identification__btn {
@@ -277,7 +288,7 @@ a:focus {
 }
 
 .pagewrapAside {
-  max-width: 304px;
+  max-width: 305px;
 }
 
 .pagewrapAside__button {
@@ -418,11 +429,13 @@ button.actionbtn {
 .showbtn__title--filters {
   font: 400 16px/1.5 "Roboto", Arial, Helvetica, sans-serif;
   color: #19191d;
+  float: left;
 }
 
 .showbtn__title--box {
   font: 500 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
   color: #19191d;
+  float: left;
 }
 
 .showbtn__title--sort {
@@ -490,7 +503,8 @@ span.fa-sort-down--box {
 span.fa-chevron-down--marg,
 span.fa-chevron-up--marg,
 span.fa-sort-down--marg {
-  margin-left: 28px;
+  margin-right: 26px;
+  margin-left: 50px;
 }
 
 span.fa-chevron-down--sort,
@@ -584,7 +598,6 @@ span.fa-sort-down--sort {
 }
 
 .pagewrapBody .main .goods__title {
-  min-width: 227px;
   min-height: 74px;
   padding-bottom: 8px;
   font: 400 16px/1.5 "Inter", Arial, Helvetica, sans-serif;
@@ -600,7 +613,6 @@ span.fa-sort-down--sort {
 
 .pagewrapBody .main .goods__comment {
   padding-bottom: 9px;
-  min-width: 227px;
   min-height: 41px;
 }
 
@@ -661,7 +673,7 @@ span.fa-sort-down--sort {
 }
 
 .footer {
-  margin-left: 328px;
+  margin-left: 380px;
   padding: 40px 0 96px;
 }
 

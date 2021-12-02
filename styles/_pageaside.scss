@@ -1,5 +1,5 @@
 .pagewrapAside {
-  max-width: 304px;
+  max-width: 305px;
 
   &__button {
     margin-bottom: 40px;
@@ -139,11 +139,13 @@ button.actionbtn {
     &--filters {
       font: $size9-font;
       color: $list-color;
+      float: left;
     }
 
     &--box {
       font: $size7-font;
       color: $list-color;
+      float: left;
     }
 
     &--sort {
@@ -206,9 +208,9 @@ span.fa-sort-down {
   }
 
   &--marg {
-    margin-left: 28px;
+    margin-right: 26px;
+    margin-left: 50px;
   }
-
   &--sort {
     margin-right: 16px;
     margin-top: 2px;
