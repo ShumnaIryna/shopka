@@ -175,6 +175,7 @@ progress {
 .header {
   padding: 20px 16px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header__logo img {
@@ -186,7 +187,6 @@ progress {
 }
 
 .header__nav {
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -196,7 +196,12 @@ progress {
   color: #5a5b6a;
 }
 
-.header__link-electro {
+.header__link--regist {
+  padding-right: 110px;
+}
+
+.header__link--electro {
+  padding-right: 120px;
   color: #2264d1;
 }
 
@@ -239,7 +244,6 @@ progress {
 .identification {
   flex-wrap: wrap;
   align-items: center;
-  margin-right: -20px;
 }
 
 .identification__general:not(:last-child) {
@@ -372,6 +376,10 @@ button.actionbtn {
 
 .showbtn--expand {
   margin-left: 60px;
+}
+
+.showbtn--expand:hover {
+  box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24), 0px 2px 4px rgba(90, 91, 106, 0.24);
 }
 
 .showbtn--filters {
@@ -569,7 +577,7 @@ span.fa-sort-down--sort {
 }
 
 .pagewrapBody .tabs__item:hover, .pagewrapBody .tabs__item:active {
-  border: 1px solid #5a5b6a;
+  box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24), 0px 2px 4px rgba(90, 91, 106, 0.24);
 }
 
 .pagewrapBody .tabs__link {

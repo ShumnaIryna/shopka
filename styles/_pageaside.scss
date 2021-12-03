@@ -84,6 +84,10 @@ button.actionbtn {
     margin-left: 60px;
   }
 
+  &--expand:hover {
+    box-shadow: 0px 1px 2px $shadow-blue3, 0px 2px 4px $shadow-blue4;
+  }
+
   &--filters {
     padding: 6px 16px 10px 8px;
     margin: 32px 0 24px;
@@ -98,6 +102,10 @@ button.actionbtn {
     background-color: transparent;
     color: $filter-color;
   }
+
+  // &--box:hover {
+  //   box-shadow: none;
+  // }
 
   &--sort {
     margin: 0 16px 0 0;
@@ -190,6 +198,10 @@ button.actionbtn {
     box-shadow: 0px 1px 2px $shadow-blue1, 0px 2px 4px $shadow-blue2;
   }
 }
+
+// .showbtn:hover {
+//   box-shadow: 0px 1px 2px $shadow-blue3, 0px 2px 4px $shadow-blue4;
+// }
 
 span.fa-chevron-down,
 span.fa-chevron-up,

@@ -35,7 +35,7 @@
 
     &__item:hover,
     &__item:active {
-      border: 1px solid #5a5b6a;
+      box-shadow: 0px 1px 2px $shadow-blue3, 0px 2px 4px $shadow-blue4;
     }
 
     &__link {

@@ -1,6 +1,7 @@
 .header {
   padding: 20px 16px;
   align-items: center;
+  justify-content: space-between;
 
   &__logo img {
     max-width: 176px;
@@ -11,7 +12,7 @@
   }
 
   &__nav {
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
   }
 
@@ -20,7 +21,12 @@
     font: $size5-font;
     color: $gray-color;
 
-    &-electro {
+    &--regist {
+      padding-right: 110px;
+    }
+
+    &--electro {
+      padding-right: 120px;
       color: $blue-color;
     }
   }
@@ -65,7 +71,6 @@
 .identification {
   flex-wrap: wrap;
   align-items: center;
-  margin-right: -20px;
 
   &__general:not(:last-child) {
     padding-right: 20px;
