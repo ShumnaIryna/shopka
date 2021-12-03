@@ -69,7 +69,7 @@
 }
 
 .identification {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
 
   &__general:not(:last-child) {
@@ -91,8 +91,31 @@
   }
 }
 
-// @media (max-width: 1023px) {
-//   .header {
+@media (max-width: 1890px) {
+  .header {
+    &__link {
+      &--electro {
+        padding-right: 30px;
+      }
 
-//   }
-// }
+      &--regist {
+        padding-right: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1800px) {
+  .header {
+    &__search {
+      &-input {
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1555px) {
+  .header {
+  }
+}

@@ -242,7 +242,7 @@ progress {
 }
 
 .identification {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
 }
 
@@ -262,6 +262,21 @@ progress {
   border-radius: 50%;
   color: #ffffff;
   background-color: #f44336;
+}
+
+@media (max-width: 1890px) {
+  .header__link--electro {
+    padding-right: 30px;
+  }
+  .header__link--regist {
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .header__search-input {
+    max-width: 500px;
+  }
 }
 
 .mainnav {
