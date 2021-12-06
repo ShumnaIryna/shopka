@@ -115,7 +115,38 @@
   }
 }
 
-@media (max-width: 1555px) {
+@media (max-width: 1560px) {
+  .header {
+    &__logo > img {
+      padding-right: 10px;
+    }
+    &__nav {
+      font: $size8-font;
+    }
+
+    &__link {
+      padding-right: 15px;
+    }
+
+    &__search {
+      &-input {
+        max-width: 440px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1447px) {
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .identification {
+    position: fixed;
+  }
+}
+
+@media (max-width: 1280px) {
   .header {
   }
 }
