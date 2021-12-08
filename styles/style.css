@@ -526,8 +526,8 @@ button.actionbtn {
 .showbtn__over {
   font: 400 14px/1.4 "Inter", Arial, Helvetica, sans-serif;
   color: #787885;
-  top: -10px;
   left: 10px;
+  top: -10px;
   background-color: #ffffff;
 }
 
