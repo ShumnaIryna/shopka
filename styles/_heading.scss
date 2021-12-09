@@ -140,13 +140,60 @@
   .header {
     flex-wrap: wrap;
   }
+}
 
-  .identification {
-    position: fixed;
+@media (max-width: 1280px) {
+  .header {
+    &__search {
+      order: 1;
+      margin: 10px 30px 20px 0;
+
+      &-input {
+        max-width: 600px;
+      }
+    }
+
+    .identification {
+      order: 2;
+      padding: 10px 20px 10px 0;
+      // flex-basis: 50%;
+
+      &__general > img {
+        margin-right: 20px;
+      }
+    }
+
+    &__link {
+      order: 3;
+      padding: 10px 20px 10px 0;
+      flex-basis: 100%;
+    }
+
+    &__nav {
+      flex-wrap: wrap;
+    }
   }
 }
 
-// @media (max-width: 1280px) {
-//   .header {
-//   }
-// }
+@media (max-width: 1023px) {
+  .identification {
+    flex-basis: 100%;
+
+    &__btn {
+      font: $size2-font;
+    }
+  }
+
+  .header {
+    &__search {
+      &-input {
+        max-width: 100%;
+        font: $size4-font;
+      }
+    }
+
+    &__link {
+      font: $size4-font;
+    }
+  }
+}
