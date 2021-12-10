@@ -34,16 +34,24 @@
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1023px) {
   .mainnav {
     &__list {
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
     &__link {
       &-title {
         font: $size5-font;
       }
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .mainnav {
+    &__list {
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
   }
 }

@@ -32,3 +32,33 @@
     }
   }
 }
+
+@media (max-width: 1447px) {
+  .footer {
+    .info {
+      &__box {
+        min-height: 160px;
+
+        &-titile {
+          font: $size11-font;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .footer {
+    margin-left: 0;
+
+    .info {
+      grid-template-columns: 1fr;
+
+      &__box {
+        padding: 10px 10px;
+        min-height: 130px;
+        min-width: 200px;
+      }
+    }
+  }
+}

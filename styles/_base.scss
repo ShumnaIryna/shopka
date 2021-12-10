@@ -140,8 +140,9 @@ progress {
 //   filter: opacity(50%);
 // }
 
-// @media (max-width: 1023px) {
-//   .d-flex {
-//     flex-wrap: wrap;
-//   }
-// }
+@media (max-width: 1023px) {
+  .pagewrap {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

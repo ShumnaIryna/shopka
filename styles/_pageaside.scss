@@ -243,3 +243,12 @@ span.fa-sort-down {
     }
   }
 }
+
+@media (max-width: 1023px) {
+  .pagewrapAside {
+    aside,
+    .showbtn {
+      display: none;
+    }
+  }
+}
