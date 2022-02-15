@@ -117,29 +117,6 @@ progress {
   order: 5;
 }
 
-// input {
-//   border: none;
-//   border-radius: 99px;
-//   background-color: $gray-background;
-//   font: $size5-font;
-//   color: $list-color;
-// }
-// .swiper-wrapper {
-//   margin: -20px;
-// }
-// .swiper-button-disabled {
-//   display: none;
-// }
-
-// .swiper {
-//   overflow: visible;
-// }
-
-// .swiper-slide-next,
-// .swiper-slide-prev {
-//   filter: opacity(50%);
-// }
-
 @media (max-width: 1023px) {
   .pagewrap {
     grid-template-columns: 1fr;
